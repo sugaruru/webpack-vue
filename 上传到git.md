@@ -65,3 +65,5 @@
 - 关联好之后我们就可以把本地库的所有内容推送到远程仓库（也就是Github）上了，通过：
 　　 $ git push -u origin master
     如果新建的远程仓库是空的，所以要加上-u这个参数。
+
+test：在vscode中可以可以自动上传到git
