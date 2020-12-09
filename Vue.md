@@ -1,17 +1,17 @@
-Vue.js
+# Vue.js
 
-# Node(后端)中的 MVC 与 前端中的 MVVM 之间的区别
+## Node(后端)中的 MVC 与 前端中的 MVVM 之间的区别
 
 + MVC 是后端的分层开发概念；
 + MVVM 是前端视图层的概念， 主要关注与 视图层分离， 即：MVVM把前端视图层分成三部分 Model, View, VM ViewModel
 
-# Vue.js 基本代码 和 MVVM 之间的对应关系
+## Vue.js 基本代码 和 MVVM 之间的对应关系
 + V层就是视图层，对应的关系是body 里面的#app里面需要渲染显示的。
 + new Vue的实例就是VM调度者
 + 而M 就是data，保存每个页面的数据
 
-# Vue.js 的基本代码结构，v-cloak， v-text
-## 基本代码结构
+## Vue.js 的基本代码结构，v-cloak， v-text
+### 基本代码结构
     <!DOCTYPE html>
     <html lang="en">
         <head>
@@ -44,8 +44,9 @@ Vue.js
         </body>
     </html> 
 
-## <!-- 使用 v-cloak 能够解决 插值表达式闪烁的问题 -->
-## <!-- 默认 v-text 是没有闪烁问题的 --> 
+
+### 使用 v-cloak 能够解决 插值表达式闪烁的问题 
+### 默认 v-text 是没有闪烁问题的 
     v-text会覆盖元素中原本的内容，但是 插值表达式  只会替换自己的这个占位符，不会把整个元素的内容清空
 
     
