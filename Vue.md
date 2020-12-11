@@ -364,7 +364,7 @@ Vue.filter('dataFormat', function (input, pattern = '') {
     + beforeDestroy：实例销毁之前调用。在这一步，实例任然完全可用
     + destroyed：Vue实例销毁后调用。调用后，Vue实例指示的所有东西都会解绑定， 所有的事件监听器会被移除，所有的子实例也会被销毁。
 
-![生命周期](D:\BaiduNetdiskDownload\03. 进阶开发（有基础后再学）\02 Vue基础 笔记+源代码\Vue基础资料\vue资料包\day02\笔记\lifecycle.png)
+![生命周期](./images/lifecycle.png)
 
 ## [vue-resource 实现 get, post, jsonp请求]
 vue-resource是vue中使用请求网络数据的插件， 这个插件是依赖于vue的，简单说就是用来调接口的
